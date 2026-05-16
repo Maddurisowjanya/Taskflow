@@ -11,7 +11,6 @@ import { format } from 'date-fns';
 import './ProfilePage.css';
 
 const ProfilePage = () => {
-  const {} = useAuth();
   const [profile, setProfile] = useState(null);
   const [loading, setLoading] = useState(true);
   const [editMode, setEditMode] = useState(false);
